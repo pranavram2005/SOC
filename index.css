@@ -1,0 +1,87 @@
+body{
+    background-image: url("stage.jpg");
+    background-size: cover;
+}
+.body{
+    color: black;
+    position: absolute;
+    top: 0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 620px;
+    height: 426px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.login{
+    height: max-content;
+    width: max-content;
+    padding-right: 10px;
+}
+.first{
+    width: 300px;
+}
+.heading{
+    text-align: center;
+}
+.input{
+    border-radius: 20px;
+    color: white;
+}
+.button{
+    width: 100%; 
+    color: white; 
+    background-color: #14A44D;  
+    border: none;
+    height: 37px;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 2px;
+}
+.check{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 5px;   
+}
+.pass{
+    text-decoration: none;
+    color: black;
+}
+img{
+    height: 425px;
+    width: 100%;
+}
+.head{
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+.sign{
+    text-align: center;   
+}
+.link{
+    text-decoration: none;
+    color: #14A44D;
+    font-weight: 500;
+}
+.logo{
+    padding: 20px;
+}
+.logo > img{
+    height: 100px;
+    width: 100px;
+}
+.links{
+    text-decoration: none;
+    color: #faf8f8;
+    font-weight: 500;
+}
